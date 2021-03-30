@@ -5,8 +5,8 @@ public class Door {
     private boolean locked;
 
     public Door(){
-        this.open = false;
-        this.locked = true;
+        this.open = true;
+        this.locked = false;
     }
 
     public void openDoor(){
